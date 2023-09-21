@@ -1,0 +1,74 @@
+
+body{
+    background-color: #fbf7ed;
+    box-sizing: border-box;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none;
+    margin: 15px;
+
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar .logo{
+    margin: 25px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.centerbox{
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh;
+    flex-direction: column;
+}
+#homeButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.followUs{
+    display: flex;
+    flex-direction: row;
+    left: 10px;
+    bottom: 30px;
+    padding: 35px;
+    position: absolute;
+}
+
+.followUs .social{
+    padding-left: 10px;
+}
+
+.centerbox #LernBtn{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border:none;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.centerbox #ProBtn{
+    background-color: #5bbb7b;
+    padding: 10px;
+    margin: 5px;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+}

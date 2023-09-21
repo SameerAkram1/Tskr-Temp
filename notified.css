@@ -1,0 +1,97 @@
+.notifyBox {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    Width: 1244.35px;
+    Height: 638px;
+    Top: 221px;
+    Left: 337.82px;
+    background-color: #5BBB7B;
+    border-radius: 20px;
+}
+
+.GetNotifiedCard img {
+    margin: 30px;
+}
+
+
+.GetNotifiedCard {
+    display: flex;
+    flex-direction: row;
+    Width: 724.08px;
+    Height: 534.2px;
+    Top: 51.9px;
+    Left: 520.27px;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+#NotifyClose {
+    font-size: 10px;
+    width: 40px;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+#GetNotified h1 {
+    font: DM Sans;
+    Size: 55px;
+    line-height: 71.61px;
+    font-weight: 700;
+    Size: 55px;
+    color: #FFFFFF;
+    letter-spacing: -2%;
+}
+
+#GetNotified p {
+    Width: 586.24px;
+    Height: 68px;
+    Top: 223.35px;
+    Left: 63.29px;
+    font-weight: 400;
+    Size: 24px;
+    line-height: 33.6px;
+}
+
+#GetNotifiedContent {
+    display: flex;
+    justify-content: center;
+    margin: 70px;
+    flex-direction: column;
+
+}
+
+#GetNotifiedContent form {
+    margin-top: 25px;
+    position: relative;
+
+
+}
+
+
+
+#GetNotifiedContent form .InputSearch #search-box {
+   
+    height: 74px;
+    Width: 620px;
+    border-radius: 24.05px;
+    background: #FFFFFF;
+    border: none;
+    margin: 0%;
+    padding: 10px;
+
+}
+
+#GetNotifiedContent form .InputSearch button {
+    height: 100%;
+    width: 148.11px;
+    position: absolute;
+    right: 0;
+    border-top-right-radius: 24.05px;
+    border-bottom-right-radius: 24.05px;
+    border:none;
+}
