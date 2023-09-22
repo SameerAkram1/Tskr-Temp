@@ -1,74 +1,97 @@
-
-body{
-    background-color: #fbf7ed;
-    box-sizing: border-box;
+body {
+  background-color: #fbf7ed;
+  box-sizing: border-box;
+  font-family: "DM Sans" !important;
 }
-.navbar ul{
-    overflow: auto;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  box-sizing: border-box;
 }
-.navbar li{
-    float:right;
-    list-style: none;
-    margin: 15px;
-
+.navbar ul {
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  height: 10%;
+}
+.navbar li {
+  float: right;
+  list-style: none;
+  margin: 10px 15px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .navbar li a {
-    padding: 3px 3px;
-    text-decoration: none;
-    color: black;
+  /* padding: 3px 3px; */
+  text-decoration: none;
+  color: black;
 }
 
-.navbar .logo{
-    margin: 25px;
-}
-.navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 30px;
-    box-sizing: border-box;
+.navbar .logo {
+  margin: 25px;
 }
 
-.centerbox{
-    display: flex;
-    justify-content: center; /* Horizontally center */
-    align-items: center; /* Vertically center */
-    height: 100vh;
-    flex-direction: column;
-}
-#homeButtons{
-    display: flex;
-    flex-direction: row;
+.mainSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 
-.followUs{
-    display: flex;
-    flex-direction: row;
-    left: 10px;
-    bottom: 30px;
-    padding: 35px;
-    position: absolute;
+.centerbox {
+  text-align: center;
+  height: 200px;
+  width: 540px;
+}
+#homeButtons {
+  display: flex;
+  flex-direction: row;
 }
 
-.followUs .social{
-    padding-left: 10px;
+.mainFooter {
+  margin-top: 60px;
+}
+.followUs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  left: 10px;
+  bottom: 30px;
+  padding: 35px;
+  /* position: absolute; */
 }
 
-.centerbox #LernBtn{
-    background-color: #ffffff;
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    border:none;
-    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+.followUs .social {
+  margin-left: 20px;
+  font-size: 12px;
 }
 
-.centerbox #ProBtn{
-    background-color: #5bbb7b;
-    padding: 10px;
-    margin: 5px;
-    border:none;
-    border-radius: 5px;
-    box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+.followUs .followUsText {
+  font-size: 14px;
+}
+.centerbox #LernBtn {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.centerbox #ProBtn {
+  background-color: #5bbb7b;
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 3px 1px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #fff;
 }
